@@ -1,0 +1,15 @@
+{
+	"name": "datafact-azureproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0402b36a-2752-4b32-b3b9-09a8c543ef14",
+		"tenantId": "7d03e428-9076-44ac-9c7a-db256854509a"
+	}
+}
